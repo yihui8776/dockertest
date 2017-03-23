@@ -1,7 +1,7 @@
 # dockertest
 # Dockerfile详细解析，centos7base镜像
-
-FROM daocloud.io/centos:7
+ 
+ FROM daocloud.io/centos:7
   ● 基于父镜像构建其他docker镜像，父镜像：可以通过docker pull 命令获得，也可以自己制作
 MAINTAINER yihui <wangyaohui8776@sina.com>
   ● Dockerfile维护者

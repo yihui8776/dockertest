@@ -1,13 +1,13 @@
 
 ############################################
-# version : birdben/jdk7:v1
+# version : yihui/dockertest:jdk7
 # desc : 当前版本安装的jdk7
 ############################################
 # 设置继承自我们创建的 tools 镜像
-FROM birdben/tools:v1
+FROM yihui/dockertest:jdk7
 
 # 下面是一些创建者的基本信息
-MAINTAINER birdben (191654006@163.com)
+MAINTAINER yihui (wangyaohui8776@sina.com)
 
 # 设置环境变量，所有操作都是非交互式的
 ENV DEBIAN_FRONTEND noninteractive
